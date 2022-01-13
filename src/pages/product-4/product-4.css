@@ -1,0 +1,153 @@
+.bg-blus
+{
+    background-image: url("/src/images/blue-bg.svg");
+    background-size: cover;
+}
+
+td
+{
+    font-family: "Galano Grotesque Medium";
+}
+
+@media only screen and (min-width: 320px) and (max-width: 834px) 
+{
+    .dummy-height
+    {
+        height:auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) 
+{
+    .dummy-height
+    {
+        height:auto;
+    }
+    .h-dn
+    {
+        display: none;
+    }
+    .w80-dummy
+    {
+        width:80%;
+    }
+    .pl15p-dummy
+    {
+        padding-left: 0px;
+    }
+    .order-1
+    {
+        order: 2!important;
+    }
+    .order-1
+    {
+        order: 1!important;
+    }
+    .line-height-0
+    {
+        line-height: 0.9;
+    }
+    .pl15p
+    {
+        padding-left: 9%;
+    }
+    .pl12p
+    {
+        padding-left: 9%;
+    }
+    .pl11p
+    {
+        padding-left: 9%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 534px)
+{
+    .ml50
+    {
+        margin-left: 10px;
+    }
+    .ml10-dummy
+    {
+        margin-left: 10px;
+        margin-bottom: 0.5rem;
+    }
+} 
+
+@media only screen and (min-width:768px)
+{
+    .order-1
+    {
+        order: 1!important;
+    }
+    .order-1
+    {
+        order: 2!important;
+    }
+    .ml20p-dummy
+    {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 909px)
+{
+    .standard-con
+    {
+        height:auto;
+    }
+}
+
+
+/* Form P1 */
+
+@media only screen and (min-width: 320px) and (max-width: 938px)
+{
+    .h100vh-dummy
+    {
+        height:auto!important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px)
+{
+    .h100vh-p2-dummy
+    {
+        height:auto!important;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+    .h100vh-p2-dummy
+    {
+        height:100vh!important;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 938px)
+{
+    .h100vh-dummy
+    {
+        height:100vh!important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px)
+{
+    .w500
+    {
+        width:320px;
+    }
+}
+
+@media only screen and (min-width: 501px)
+{
+    .w500
+    {
+        width:500px;
+    }
+}
+

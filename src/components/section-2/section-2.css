@@ -1,0 +1,115 @@
+.section-2{
+    height:auto;
+    width:100%;
+    background-color:var(--blue);
+    padding-bottom:50px;
+}
+
+.section-2-heading{
+    padding-top:50px;
+}
+
+.section-2-card-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    height:100%;
+    width:100%;
+}
+
+.section-2-card-content{
+    margin:15px 0;
+    font-size:12px;
+}
+
+.section-2-card{
+    width: 18rem; 
+    padding:5px;
+    border-radius:8px;
+    /* height:600px; */
+    background-color:#fff;
+}
+
+.h335
+{
+    height:335px;
+}
+
+.h185
+{
+    height: 185.85px;
+}
+
+.bg-hover-1
+{
+    background-image: url("/src/images/power.png");
+    border-radius: 15px;
+}
+
+.bg-hover-2
+{
+    background-image: url("/src/images/charging.png");
+    border-radius: 15px;
+}
+
+.bg-hover-3
+{
+    background-image: url("/src/images/nature.png");
+    border-radius: 15px;
+}
+
+/* @media only screen and (min-width:320px){ */
+    /* .section-2-card-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+        height:auto;
+    }
+
+    .section-2-card{
+        margin-bottom:20px;
+    }
+}
+
+@media only screen and (min-width:375px){
+    .section-2-card-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+        height:auto;
+    }
+
+    .section-2-card{
+        margin-bottom:20px;
+    }
+} */
+
+/* @media only screen and (min-width:768px){
+    
+    .section-2-card-container{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-evenly;
+        height:100%;
+    } */
+
+    /* .section-2-card{
+        width: 13rem;
+        height:430px;
+        margin-bottom:0px;
+    } */
+/* } */
+
+/* @media only screen and (min-width:1024px){
+
+    .section-2-card{
+        width: 18rem;
+        height:650px;
+    }
+
+
+} */

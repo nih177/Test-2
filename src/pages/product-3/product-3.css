@@ -1,0 +1,19 @@
+/* .carousel-control-next
+{
+    display: none;
+}
+
+.carousel-control-prev
+{
+    display: none;
+} */
+
+.carousel-indicators
+{
+    opacity: 0;
+}
+
+/* .carousel-item {
+    transition: transform 6s ease-in-out;
+} */
+

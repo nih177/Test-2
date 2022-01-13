@@ -1,0 +1,107 @@
+/*Font imports*/
+
+@font-face {
+  font-family: "Galano Grotesque Medium";
+  src: url("GalanoGrotesque-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque Light";
+  src: url("GalanoGrotesque-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque Semi Bold";
+  src: url("GalanoGrotesque-SemiBold.ttf") format("truetype");
+}
+
+/*Styling variables*/
+
+:root {
+
+  /*FONTS*/
+  --primary-font-family: "Galano Grotesque Light";
+  --secondary-font-family: sans-serif;
+
+  /*TYPOGRAPHY*/
+  --semi-bold:700;
+  --regular:400;
+  --medium:600;
+  --light:300;
+
+  /*COLORS*/
+  --black: #000000;
+  --white: #ffffff;
+  --secondaryBlack: #333333;
+  --grey:#707070;
+  --blue: #247AB5;
+
+}
+
+/* FONT CLASSES */
+
+.bold{
+  font-family: "Galano Grotesque Semi Bold";
+}
+
+.medium{
+  font-family: "Galano Grotesque Medium";
+}
+
+.light{
+  font-family: "Galano Grotesque Light";
+}
+
+
+/* BASE ELEMENT STYLING */
+
+h1{
+  font-family: "Galano Grotesque Semi Bold";
+}
+
+h2{
+  font-family: "Galano Grotesque Medium";
+}
+
+h4{
+  font-family: "Galano Grotesque Light";
+}
+
+h5{
+  font-family: "Galano Grotesque Light";
+}
+
+h6{
+  font-family: "Galano Grotesque Medium";
+}
+
+button{
+  font-family: "Galano Grotesque Medium";
+  color:var(--white);
+  font-size:14px;
+  padding:10px 20px;
+  height:auto;
+  width:auto;
+  background-color:var(--blue);
+  outline:none;
+  border:none;
+  border-radius:8px!important;
+}
+
+/* MISCELLENOUS COLOR AND LAYOUT STYLING */
+
+.blue{
+  color:var(--blue);
+}
+
+.white{
+  color:var(--white);
+}
+
+.align-center{
+  width:100%;
+  display:block;
+  text-align:center;
+}
+
+

@@ -1,0 +1,25 @@
+.career-bg
+{
+    background-image: url("/src/images/career-1.svg");
+    background-position: center;
+}
+
+
+.career
+{
+   height: 88vh;
+    /* height: 830px; */
+    width: 100%;
+    background-color: #D9DDE8;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 341px) {
+    .w80-dummy{
+        width:80%
+    }
+    .mt-dummy
+    {
+        margin-top: 70px;
+    }
+}
+

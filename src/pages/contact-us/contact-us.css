@@ -1,0 +1,22 @@
+.contact-us-page{
+    /* padding-top: 300px; */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 756px) {
+    .contact-us-page
+    {
+        padding-top: 96px;
+    }
+
+    .product-2-content-container-dummy
+    {
+        height: fit-content;
+    }
+
+    .product-2-content-container-dummy-career
+    {
+        height: 100vh;
+    }
+}
+
+/* @media only screen and (min-width: ) */
