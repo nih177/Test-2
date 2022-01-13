@@ -9,13 +9,17 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Product1() {
+    window.onload = function() {
+        
+        Aos.init({ duration: 2000 });
+      };
     function myfun(e) {
         const classValue = e.target.getAttribute("id")
         document.getElementById(classValue).style.transition = "opacity 6s ease-in-out";
     }
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-    }, []);
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    // }, []);
     return (
         <div className="">
             <div className="bg-bg dummy-height p30 d-flex align-items-center justify-content-center">
@@ -161,13 +165,13 @@ export default function Product1() {
                         </div>
                     </Col>
                     <Col className="overflow-hidden" md={6}>
-                        <img data-aos="fade-left"  src="/images/p1/p-1-1.svg" id="1" className="w99p mb-3" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom"  src="/images/p1/p-1-1.svg" id="1" className="w99p mb-3" />
                     </Col>
                 </Row>
                 <Row className="w99p">
                     <Col md={1} sm={12}></Col>
                     <Col className="d-flex justify-content-center order-2 overflow-hidden" md={5}>
-                        <img data-aos="fade-left"  src="/images/p1/p-1-1.svg" className="w99p mb-3" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"  data-aos-anchor-placement="top-bottom"   src="/images/p1/p-1-1.svg" className="w99p mb-3" />
                     </Col>
                     <Col md={6} sm={12} className="d-flex align-items-center justify-content-start order-1 ">
                         <div className="h20p h-dn"></div>
@@ -212,12 +216,12 @@ export default function Product1() {
                         </div>
                     </Col>
                     <Col className="overflow-hidden" md={6}>
-                        <img data-aos="fade-left"  src="/images/third.svg" className="w99p" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom"   src="/images/third.svg" className="w99p" />
                     </Col>
                 </Row>
                 <Row className="w99p">
                     <Col className="order-2 overflow-hidden" md={6}>
-                        <img data-aos="fade-left"  src="/images/p1/p-1-3.svg" className="w99p " />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom"   src="/images/p1/p-1-3.svg" className="w99p " />
                     </Col>
                     <Col md={6} className="order-1 d-flex align-items-center justify-content-start">
                         {/* <div className="h20p"></div> */}
@@ -238,7 +242,7 @@ export default function Product1() {
                 <Row className="">
                     <Col md={1}></Col>
                     <Col className="d-flex align-items-center justify-content-center order-2 overflow-hidden" md={5}>
-                        <img data-aos="fade-left"  src="/images/p1/p-1-4.svg" className="w500 mb-3" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom"   src="/images/p1/p-1-4.svg" className="w500 mb-3" />
                     </Col>
                     <Col md={6} className="order-1">
                         <div className="d-block mt-auto mb-auto pl11p">

@@ -7,9 +7,13 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Product2() {
-    useEffect(() => {
+    window.onload = function() {
+        
         Aos.init({ duration: 2000 });
-    }, []);
+      };
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    // }, []);
     return (
         <div className="">
             <div className="bg-bg dummy-height p30 d-flex align-items-center justify-content-center">
@@ -195,13 +199,13 @@ export default function Product2() {
 
                     </Col>
                     <Col className="overflow-hidden" md={6}>
-                        <img data-aos="fade-left" src="/images/first.svg" className="w99p" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom" src="/images/first.svg" className="w99p" />
                     </Col>
                 </Row>
                 <Row className="w99p">
                     <Col md={1} sm={12}></Col>
                     <Col className="d-flex justify-content-center order-2 overflow-hidden" md={5}>
-                        <img data-aos="fade-left" src="/images/second.svg" className="w80p mb-3" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom" src="/images/second.svg" className="w80p mb-3" />
                     </Col>
                     <Col md={6} sm={12} className="d-flex align-items-center justify-content-start order-1">
                         <div className="h20p h-dn"></div>
@@ -270,12 +274,12 @@ export default function Product2() {
                         </div>
                     </Col>
                     <Col className="overflow-hidden" md={6}>
-                        <img data-aos="fade-left" src="/images/third.svg" className="w99p" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom" src="/images/third.svg" className="w99p" />
                     </Col>
                 </Row>
                 <Row className="w99p">
                     <Col className="order-2 overflow-hidden" md={6}>
-                        <img data-aos="fade-left" src="/images/fourth.svg" className="w99p " />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom" src="/images/fourth.svg" className="w99p " />
                     </Col>
                     <Col md={6} className="order-1 d-flex align-items-center justify-content-start">
                         {/* <div className="h20p"></div> */}
@@ -296,7 +300,7 @@ export default function Product2() {
                 <Row className="">
                     <Col md={1}></Col>
                     <Col className="d-flex align-items-center justify-content-center order-2 overflow-hidden" md={5}>
-                        <img data-aos="fade-left" src="/images/pic-1.svg" className="w500" />
+                        <img data-aos="fade-left" data-aos-offset="200" data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"  data-aos-anchor-placement="top-bottom" src="/images/pic-1.svg" className="w500" />
                     </Col>
                     <Col md={6} className="order-1">
                         <div className="d-block mt-auto mb-auto pl11p">

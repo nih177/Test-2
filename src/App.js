@@ -12,7 +12,6 @@ import Product4 from "./pages/product-4/product-4";
 import VisionMission from "./pages/vision-and-mission/vision-mission";
 import Contact from "./pages/contact-us/contact-us";
 import Career from "./pages/career/career";
-import Product2t from "./pages/product-3/test-3";
 import { Container } from "react-bootstrap";
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
           <Route path='/' element={<LandingPage />} />
           <Route path='/vision-and-mission' element={<VisionMission/>} />
           <Route path='/p1' element={<Product1 />} />
-          <Route path='/pt' element={<Product2t />} />
           <Route path='/p2' element={<Product2 />} />
           <Route path='/p3' element={<Product3 />} />
           <Route path='/p4' element={<Product4 />} />
