@@ -22,6 +22,10 @@ function NavBar() {
                   <a href="#" className="nav-link dropdown-toggle " data-bs-toggle="dropdown">PRODUCTS</a>
                   <div className="dropdown-menu ">
                     <a href="/p1" className="dropdown-item dropdown-bg ">ATOM AC</a>
+                    <a href="/destination" className="dropdown-item dropdown-bg ">Destination Charging</a>
+                    <a href="/socket" className="dropdown-item dropdown-bg ">Socket</a>
+                    <a href="/hybrid-charger" className="dropdown-item dropdown-bg ">Hybrid Charger</a>
+                    <a href="/bharath-charger" className="dropdown-item dropdown-bg ">Bharath Charger</a>
                     <a href="/p2" className="dropdown-item dropdown-bg ">DC FAST</a>
                     <a href="/p3" className="dropdown-item dropdown-bg ">ATOM PUBLIC</a>
                     <a href="/p4" className="dropdown-item dropdown-bg ">AGRICELL</a>
